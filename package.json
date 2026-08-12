@@ -1,0 +1,12 @@
+{
+  "name": "director-shot-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based video shot scanner with Douyin link resolution",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
