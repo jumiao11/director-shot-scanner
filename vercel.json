@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "mkdir -p public && cp index.html app.js styles.css public/",
+  "outputDirectory": "public",
+  "cleanUrls": true
+}

@@ -11,7 +11,7 @@
     <div class="panel input-panel">
       <div class="brand-row"><div><p class="eyebrow">Director Shot Scanner</p><h1>镜头扫描分析台</h1></div><button class="icon-button" id="clearBtn" title="清空">×</button></div>
       <div class="tabs" role="tablist"><button class="tab active" data-mode="link">链接</button><button class="tab" data-mode="file">视频</button></div>
-      <div class="input-mode active" id="linkMode"><label for="videoUrl">视频链接</label><div class="url-row"><input id="videoUrl" type="text" placeholder="粘贴抖音分享文本、短链或视频直链"><button id="analyzeLinkBtn">扫描</button></div></div>
+      <div class="input-mode active" id="linkMode"><label for="videoUrl">视频直链</label><div class="url-row"><input id="videoUrl" type="text" placeholder="粘贴可直接播放的 .mp4、.mov、.webm 链接"><button id="analyzeLinkBtn">扫描</button></div></div>
       <div class="input-mode" id="fileMode"><label for="videoFile">上传视频文件</label><input id="videoFile" type="file" accept="video/*"></div>
       <div class="preview"><video id="videoPreview" controls playsinline preload="metadata"></video><div class="empty-preview" id="emptyPreview"><span>等待视频素材</span></div></div>
       <div class="scan-progress" id="scanProgress" hidden><div id="progressText">准备扫描</div><progress id="progressBar" value="0" max="100"></progress></div>
